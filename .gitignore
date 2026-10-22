@@ -1,0 +1,38 @@
+# Local AI context
+CLAUDE.md
+.claude/
+.aidocs/
+.remember/
+supertool
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node
+node_modules/
+dist/
+.nx/
+coverage/
+*.tsbuildinfo
+
+# Terraform
+infra/**/.terraform/
+infra/**/*.tfstate
+infra/**/*.tfstate.*
+infra/**/.terraform.lock.hcl
+infra/**/*.tfplan
+
+# LocalStack
+volume/
+
+# Python (placeholder model trainer)
+.venv/
+__pycache__/
+model/mlruns/
